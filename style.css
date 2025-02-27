@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-style: normal;
+}
+.navbar{
+    background-color: rgb(71, 71, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  
+}
+.navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.navitem li{
+    list-style: none;
+    font-size: 18px;
+   
+   
+   
+}
+.navitem li a{
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.navitem li i{
+    color: whitesmoke;
+}
+.navitem li:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.6);
+    text-decoration: underline;
+}
+
+#home{
+    height: 100vh;
+    /* background-color: darkmagenta; */
+    padding: 20px;
+    text-align: center;
+ 
+    
+}
+
+#about{
+    height: 100vh;
+    margin-top: 40px;
+    /* background-color: rgb(227, 155, 155); */
+}
+#about p{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+#project{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(180, 17, 69);  */
+}
+.projectdesc{
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 20px;
+  width: 60%;
+  
+}
+#contact{
+    height: 100vh;
+    /* background-color: rgb(180, 139, 17);  */
+}
+
+
+#contact{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 20px;
+}
+#contact form{
+    /* background-color: green; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+#contact form label{
+    margin-bottom: 10px;
+}
+#contact form input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#contact form #message{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+#contact form button{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(4, 4, 141);
+    color: whitesmoke;
+    margin: auto;
+}
+@media(min-width:481px )and (max-width:768px){
+    .navitem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+    .navitem li{
+        font-size: 12px;
+       
+    }
+    #about p{
+        width:60% ;
+        margin: auto;
+        /* background-color: red; */
+    }
+    #project{
+      
+        display: flex;
+       flex-direction: column;
+       justify-content: center; 
+        align-items: center;
+       
+         /* background-color:green;  */
+    }
+    #project .projectdesc{
+        /* background-color: blue; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+      }
+   
+
+}
+@media(max-width:480px){
+    .navitem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .navitem li{
+        font-size: 10px;
+       
+    }
+    
+    #about p{
+        width:50% ;
+        margin: auto;
+        /* background-color: red; */
+        font-size: 14px;
+    }
+   
+    #project{
+      
+        display: flex;
+       flex-direction: column;
+       justify-content: center; 
+        align-items: center;
+       
+         /* background-color:green;  */
+    }
+    #project .projectdesc{
+        /* background-color: blue; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+        
+      }
+
+}

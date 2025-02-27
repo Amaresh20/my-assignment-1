@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        src="https://w7.pngwing.com/pngs/175/27/png-transparent-uniform-logo-brand-web-page-industry-navbar-text-trademark-logo-thumbnail.png"
+        alt=""
+      />
+      <ul class="navitem">
+        <li><a href="#home">Home </a></li>
+        <li><a href="#about"> About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
+        <li><i id="theme" class="fa-solid fa-moon"></i></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div id="home">
+        <h1>Welcome to my Portfolio page</h1>
+      </div>
+      <div id="about">
+        <p>
+          I am Amaresh sahoo.I have done undergraduate in electrical engineering
+          from Parala Maharaja Enginerring College,Berhampur,Odisha.Besides that
+          I have keen intrest in full stack development.Some of my skills are
+          html,css,javascript,react,node js ,express js,mongodb,tailwind.
+          Inorder to upskills myself I have done a course on Internshala in the
+          same field.
+        </p>
+      </div>
+      <div id="project">
+        <div class="projectdesc">
+          <h2>ShoppyGlobe</h2>
+
+          <p>
+            ShoppyGlobe is an e-commerce web application designed for a seamless
+            online shopping experience. It offers a range of features that
+            enhance both user experience and product management. ShoppyGlobe
+            includes a responsive product catalog, a search and filter system,
+            and a user-friendly cart functionality.
+          </p>
+          <h2>Key Features</h2>
+          <p>
+            Product Catalog: Users can browse a variety of products with
+            detailed views. Search and Filter: Users can easily search for
+            products . Cart Management: Add items to the cart with automatic
+            updates and a visible item count. Product Detail Page: View product
+            specifications, images, and reviews on a dedicated page. Checkout
+            Process: Simple, secure checkout for easy purchases.
+          </p>
+          <p>
+            ShoppyGlobe allows users to browse products, add items to their
+            cart, and proceed to checkout with ease. Ideal for small to mid-size
+            businesses seeking an effective e-commerce solution.
+          </p>
+        </div>
+        <div class="projectdesc">
+          <h1>Youtube clone project</h1>
+          <p>
+            This is a youtube clone project which i have built using modern
+            technologies like react,node js,express etc.
+          </p>
+          <h2>Features</h2>
+          <p>
+            User can login and signup and a jwt(json web token) is provided once
+            user is logged in. Only authenticated user can comment and they can
+            Edit and Delete comments. User can search any video based on
+            category and title. Integrated backend APIS with frontend . Used
+            mongodb for performing CURD Operation.
+          </p>
+        </div>
+        <div class="projectdesc">
+          <h1>TODO APP</h1>
+          <p>
+            A simple and interactive Todo App built using React and Vite, where
+            users can add, edit, delete, and mark tasks as completed. This app
+            is perfect for tracking daily tasks and improving productivity
+          </p>
+          <p>
+            Features Add new todos. Edit existing todos. Delete todos. Mark
+            todos as completed with a strikethrough effect. Real-time updates
+            for todos. Technologies Used React: A JavaScript library for
+            building user interfaces. Vite: A fast frontend build tool and
+            development server. UUID: Used to generate unique IDs for each todo
+            item. Installation and Setup
+          </p>
+          <p>
+            Add a Todo: Enter a task in the input field and click the "ADD"
+            button to add it to the list. Edit a Todo: Click the "Edit" button
+            next to a task, modify the text, and click "Save". Delete a Todo:
+            Click the "Delete" button next to a task to remove it. Mark as
+            Completed: Click the checkbox to mark a task as completed, which
+            adds a strikethrough effect to the text. Dependencies React - A
+            JavaScript library for building user interfaces.
+          </p>
+        </div>
+      </div>
+      <div id="contact">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" placeholder="enter name" id="name" /><br />
+          <label for="email">Email</label>
+          <input type="email" placeholder="enter email " id="email" /><br />
+          <label for="message">Message</label>
+          <textarea name="" id="message" placeholder="enter message"></textarea>
+          <button>submit</button>
+        </form>
+        <div class="form-val"></div>
+      </div>
+    </div>
+  </body>
+</html>
